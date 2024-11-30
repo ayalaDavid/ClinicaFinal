@@ -1,0 +1,8 @@
+<div>
+  <h2>Lista de Pacientes</h2>
+  <ul>
+    <li *ngFor="let paciente of pacientes">
+      {{ paciente.Persona.nombre }} {{ paciente.Persona.apellido }}
+    </li>
+  </ul>
+</div>
